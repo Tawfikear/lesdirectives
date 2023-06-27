@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lesdirectives';
+  title: string = 'Bonjour';
+
+  isAdmin: boolean = false;
+
 }
